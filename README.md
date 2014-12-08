@@ -10,6 +10,12 @@ The following method worked for me for getting Infer.NET (version 2.6) working w
 ### References
 
 Largely based on these very helpful resources:
+
+  * [Crowdsourcing: Infer.NET and IronPython on Ubuntu 12.04](https://crowdtheory.wordpress.com/2012/08/05/getting-infer-net-and-ironpython-to-work-on-ubuntu-12-04/)
+  * [Truong's Weblog: Install Infer.NET on Linux](http://truongnghiem.wordpress.com/2010/12/17/install-infer-net-on-linux/)
+  * [Mono Project Documentation: Install Mono on Linux](http://www.mono-project.com/docs/getting-started/install/linux/)
+  * [StackOverflow: how to install ironpython on ubuntu 14.04?](http://stackoverflow.com/a/25673910)
+
   [cs_blog]: https://crowdtheory.wordpress.com/2012/08/05/getting-infer-net-and-ironpython-to-work-on-ubuntu-12-04/) "Crowdsourcing: Infer.NET and IronPython on Ubuntu 12.04"
   [tr_blog]: http://truongnghiem.wordpress.com/2010/12/17/install-infer-net-on-linux/ "Truong's Weblog: Install Infer.NET on Linux"
   [mp_docs]: http://www.mono-project.com/docs/getting-started/install/linux/ "Mono Project Documentation: Install Mono on Linux"
