@@ -10,10 +10,10 @@ The following method worked for me for getting Infer.NET (version 2.6) working w
 ### References
 
 Largely based on these very helpful resources:
-  [cs_blog] https://crowdtheory.wordpress.com/2012/08/05/getting-infer-net-and-ironpython-to-work-on-ubuntu-12-04/) "Crowdsourcing: Infer.NET and IronPython on Ubuntu 12.04"
-  [tr_blog] http://truongnghiem.wordpress.com/2010/12/17/install-infer-net-on-linux/ "Truong's Weblog: Install Infer.NET on Linux"
-  [mp_docs] http://www.mono-project.com/docs/getting-started/install/linux/ "Mono Project Documentation: Install Mono on Linux"
-  [so_ques] http://stackoverflow.com/a/25673910 "StackOverflow: how to install ironpython on ubuntu 14.04?"
+  [cs_blog]: https://crowdtheory.wordpress.com/2012/08/05/getting-infer-net-and-ironpython-to-work-on-ubuntu-12-04/) "Crowdsourcing: Infer.NET and IronPython on Ubuntu 12.04"
+  [tr_blog]: http://truongnghiem.wordpress.com/2010/12/17/install-infer-net-on-linux/ "Truong's Weblog: Install Infer.NET on Linux"
+  [mp_docs]: http://www.mono-project.com/docs/getting-started/install/linux/ "Mono Project Documentation: Install Mono on Linux"
+  [so_ques]: http://stackoverflow.com/a/25673910 "StackOverflow: how to install ironpython on ubuntu 14.04?"
 
 ### Installing Mono
 
@@ -35,7 +35,7 @@ Run the following from the `IronLanguages` directory
 
     make ironpython-release
     
-Add the following lines to your `.bashrc` and/or `.profile` (as described [here][cs_blog]
+Add the following lines to your `.bashrc` and/or `.profile` (as described [here][cs_blog])
 
     export IRONPYTHONPATH=[path to IronLanguages clone]/External.LCA_RESTRICTED/Languages/IronPython/27/Lib:$IRONPYTHONPATH
     alias ironpython="mono [path to IronLanguages clone]/bin/Release/ipy.exe"

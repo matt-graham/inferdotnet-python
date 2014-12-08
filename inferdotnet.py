@@ -1,5 +1,5 @@
 """
-Infer.Net IronPython wrapper
+Infer.NET IronPython wrapper
 
 Sets up Infer.Net environment and creates convenience aliases to API modules
 """
